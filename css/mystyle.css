@@ -11,6 +11,10 @@ html {
 	padding-right: 0;
 	padding-left: 0;
 }
+h1 {
+	text-align: center;
+	//padding: 40px 0 15px 0;
+}
 h2{
 	text-transform: uppercase;
 	font-size: 30px;
@@ -26,7 +30,8 @@ h3 {
 h4 {
 	text-transform: uppercase;
 	font-size: 16px;
-    color: darkorange;   
+    color: darkorange;
+	//padding-top: 5px;
 }
 h6 {
 	margin-bottom: -5px;
@@ -174,8 +179,17 @@ h6 {
 	border-color: white;
 	
 }
-
+/* In between */
+.introToPortfolio {
+	height: 10%;
+	background-image: url(../images/dithertile.gif);
+	image-rendering: pixelated;
+	background-repeat: repeat-x;
+}
 /* Gallery */
+.portfolioheader {
+	padding: 40px 0 15px 0;
+}
 .p-element {
 align-content: center;
 }
@@ -204,6 +218,9 @@ align-content: center;
 	padding-bottom: 1px;
 	margin-bottom: 0px;
 	margin-top: 0px;
+}
+.projectTime {
+	float: right;
 }
 
 .p-info p  {
